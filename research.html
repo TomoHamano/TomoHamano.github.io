@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>RESEARCH | 濱野 友</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <div class="brand">
+        <div>
+          <h1>RESEARCH</h1>
+          <div class="subtitle">カブトムシにおける人為的影響と遺伝的撹乱の検証</div>
+        </div>
+      </div>
+
+      <nav class="nav">
+        <a href="index.html">HOME</a>
+        <a href="profile.html">PROFILE</a>
+        <a class="active" href="research.html">RESEARCH</a>
+        <a href="achievements.html">ACHIEVEMENTS</a>
+        <a href="contact.html">CONTACT</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="section">
+      <h2>研究の背景</h2>
+      <div class="card">
+        <p>
+          人為的な移動（流通・放逐・移植など）は、野生集団の遺伝構造を攪乱しうる一方で、
+          その影響は外見からは分かりにくく、評価が難しいことがあります。
+          私はカブトムシを対象に、遺伝データからその実態を検証しています。
+        </p>
+      </div>
+    </section>
+
+    <section class="section">
+      <h2>研究アプローチ</h2>
+      <div class="grid">
+        <div class="card">
+          <h3>1) フィールド調査</h3>
+          <ul>
+            <li>日本各地（本州・四国・九州・島嶼部）の地域間比較</li>
+            <li>野生個体と流通・飼育由来個体の比較</li>
+            <li>地理情報と合わせた集団構造の把握</li>
+          </ul>
+        </div>
+        <div class="card">
+          <h3>2) 遺伝解析（MIG-seq）</h3>
+          <ul>
+            <li>MIG-seq法を用いたSNPデータの取得</li>
+            <li>PCA・STRUCTURE・Fstなどの集団遺伝解析</li>
+            <li>地理距離と遺伝距離の関係の検証</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <h2>保全的意義</h2>
+      <div class="card">
+        <ul>
+          <li>見かけ上同種でも、遺伝的に異なる集団の存在</li>
+          <li>検出されにくい攪乱の評価と、在来集団保全への示唆</li>
+          <li>飼育文化・流通と自然保護の接点を、実証データで議論可能に</li>
+        </ul>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="small">© <span id="y"></span> Tomo Hamano</div>
+    </footer>
+  </main>
+
+  <script>
+    document.getElementById("y").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>

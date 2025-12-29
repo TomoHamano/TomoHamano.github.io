@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>CONTACT | 濱野 友</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <div class="brand">
+        <div>
+          <h1>CONTACT</h1>
+          <div class="subtitle">共同研究・取材・講演等のご連絡</div>
+        </div>
+      </div>
+
+      <nav class="nav">
+        <a href="index.html">HOME</a>
+        <a href="profile.html">PROFILE</a>
+        <a href="research.html">RESEARCH</a>
+        <a href="achievements.html">ACHIEVEMENTS</a>
+        <a class="active" href="contact.html">CONTACT</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="section">
+      <h2>連絡先</h2>
+      <div class="card">
+        <p>
+          研究に関するお問い合わせ、共同研究のご相談は下記よりご連絡ください。
+          迷惑メール対策のため、メールアドレスは <strong>at表記</strong> で掲載しています。
+        </p>
+        <div class="notice">
+          example [at] university.ac.jp　（[at] を @ に置き換えてください）
+        </div>
+
+        <hr class="sep">
+
+        <h3>Links</h3>
+        <ul>
+          <li>Google Scholar（準備中）</li>
+          <li>ORCID（準備中）</li>
+          <li>GitHub（準備中）</li>
+        </ul>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="small">© <span id="y"></span> Tomo Hamano</div>
+    </footer>
+  </main>
+
+  <script>
+    document.getElementById("y").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>

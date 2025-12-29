@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>ACHIEVEMENTS | 濱野 友</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <div class="brand">
+        <div>
+          <h1>ACHIEVEMENTS</h1>
+          <div class="subtitle">論文・学会発表・受賞など</div>
+        </div>
+      </div>
+
+      <nav class="nav">
+        <a href="index.html">HOME</a>
+        <a href="profile.html">PROFILE</a>
+        <a href="research.html">RESEARCH</a>
+        <a class="active" href="achievements.html">ACHIEVEMENTS</a>
+        <a href="contact.html">CONTACT</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="section">
+      <h2>学術論文</h2>
+      <div class="card">
+        <ul>
+          <li>
+            Hamano T., et al. (2025).
+            <em>Release of marketed individuals increases the risk of genetic disturbance in the pet insect Trypoxylus dichotomus.</em>
+            NeoBiota.
+            <span class="small">（DOIリンクはあとで追加）</span>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="section">
+      <h2>学会発表</h2>
+      <div class="card">
+        <ul>
+          <li>2025　○○学会（ポスター発表）</li>
+          <li>2024　○○学会（口頭発表）</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="section">
+      <h2>受賞・採択</h2>
+      <div class="card">
+        <ul>
+          <li>○○賞（年）</li>
+        </ul>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="small">© <span id="y"></span> Tomo Hamano</div>
+    </footer>
+  </main>
+
+  <script>
+    document.getElementById("y").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
